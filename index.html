@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>FreteFácil — App para Carretos</title>
+  <meta name="description" content="FreteFácil: calculador de fretes, rotas inteligentes e serviços para motoristas autônomos e transportadoras." />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Sidebar -->
+  <header class="sidebar">
+    <div class="brand">
+      <svg class="logo" viewBox="0 0 64 64" aria-hidden="true">
+        <rect x="4" y="20" width="56" height="24" rx="4" fill="var(--brand-blue)"/>
+        <path d="M8 28h48" stroke="white" stroke-width="2" stroke-linecap="round"/>
+        <circle cx="18" cy="44" r="4" fill="#fff"/>
+        <circle cx="46" cy="44" r="4" fill="#fff"/>
+      </svg>
+      <h1>FreteFácil</h1>
+      <p class="slogan">Frete inteligente</p>
+    </div>
+
+    <nav class="side-nav" aria-label="Navegação lateral">
+      <a href="#quem-somos">Quem somos</a>
+      <a href="#como-funciona">Como funciona</a>
+      <a href="#Calculator">Calculadora</a>
+      <a href="#funcionalidades">Funcionalidades</a>
+      <a href="#publico">Público-alvo</a>
+      <a href="#depoimentos">Depoimentos</a>
+      <a href="#contato" class="cta">Baixe o App</a>
+      
+    </nav>
+  </header>
+
+  <!-- Conteúdo principal -->
+  <div class="main-wrapper">
+    <main>
+      <!-- Hero -->
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-content">
+            <h2>O aplicativo inteligente para carretos e transporte de cargas</h2>
+            <p>Calcule fretes com base em quilometragem, combustível e pedágios. Encontre rotas otimizadas e serviços essenciais durante o trajeto — tudo em um só lugar.</p>
+
+            <div class="hero-cta">
+              <a class="btn primary" href="#">Google Play</a>
+              <a class="btn" href="#">App Store</a>
+            </div>
+
+            <ul class="hero-features">
+              <li>✅ Cálculo automático do frete</li>
+              <li>📍 Localização de oficinas e postos</li>
+              <li>🔁 Divisão de fretes entre motoristas</li>
+            </ul>
+          </div>
+
+          <div class="hero-mockup" aria-hidden="true">
+            <div class="phone">
+              <div class="phone-screen">
+                <h3>Frete R$ 1.560,00</h3>
+                <p>170 km (ida e volta) • Pedágios: R$ 120 • Combustível: R$ 300</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Quem somos -->
+      <section id="quem-somos" class="section container">
+        <h3>Quem somos</h3>
+        <p class="lead">O <strong>FreteFácil</strong> é um app que ajuda motoristas autônomos e transportadoras a encontrarem orçamentos precisos e rotas mais econômicas, seguras e transparentes. Fornece também acesso a serviços essenciais como hospedagem, oficinas, guinchos e borracharias.</p>
+
+        <div class="kpis">
+          <div class="kpi">
+            <strong>Economia</strong>
+            <span>Redução de custos por frete</span>
+          </div>
+          <div class="kpi">
+            <strong>Transparência</strong>
+            <span>Cálculos baseados em dados reais</span>
+          </div>
+          <div class="kpi">
+            <strong>Segurança</strong>
+            <span>Mapeamento de pontos de apoio</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Como funciona -->
+      <section id="como-funciona" class="section alt">
+        <div class="container">
+          <h3>Como funciona</h3>
+          <ol class="steps">
+            <li><strong>1. Baixe o app</strong><p>Disponível para Android e iOS.</p></li>
+            <li><strong>2. Cadastre seu veículo</strong><p>Informe consumo médio e preferências.</p></li>
+            <li><strong>3. Calcule o frete</strong><p>Inclui custo de combustível, pedágios e hospedagem.</p></li>
+            <li><strong>4. Escolha a rota e feche o frete</strong><p>Visualize pontos de apoio e valores estimados.</p></li>
+          </ol>
+        </div>
+      </section>
+
+
+      <!-- CALCULARORA-->
+      <section id="calculator" class="calculator">
+        <img src="imagens/calculadora.jpeg.jpeg" alt="calculator">
+      </section>
+
+
+      <!-- Funcionalidades -->
+      <section id="funcionalidades" class="section container">
+        <h3>Funcionalidades</h3>
+        <div class="cards">
+          <article class="card"><h4>Cálculo de Frete</h4><p>Estimativa automática com ida e volta, combustível, pedágio e ajudante.</p></article>
+          <article class="card"><h4>Rotas Inteligentes</h4><p>Melhor trajeto com economias e segurança consideradas.</p></article>
+          <article class="card"><h4>Serviços na Rota</h4><p>Oficinas, guinchos, borracharias, postos e hospedagem mapeados.</p></article>
+          <article class="card"><h4>Divisão de Fretes</h4><p>Permite dividir cargas entre motoristas e repassar valores.</p></article>
+        </div>
+      </section>
+
+      <!-- Público -->
+      <section id="publico" class="section alt">
+        <div class="container persona-grid">
+          <div>
+            <h3>Público-alvo</h3>
+            <p>Motoristas autônomos e transportadoras que buscam eficiência, transparência e redução de custos.</p>
+            <h4>Persona: João Carlos</h4>
+            <ul>
+              <li>42 anos — Caminhoneiro autônomo</li>
+              <li>Usa WhatsApp, Google Maps e grupos de frete</li>
+              <li>Precisa calcular custos e encontrar serviços pelo trajeto</li>
+            </ul>
+          </div>
+          <div class="persona-card">
+            <div class="avatar">👨‍🔧</div>
+            <p><strong>João Carlos</strong></p>
+            <p>“Quero calcular na hora e saber onde parar sem surpresas no caminho.”</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Depoimentos -->
+      <section id="depoimentos" class="section container">
+        <h3>Depoimentos</h3>
+        <div class="testimonials">
+          <blockquote class="testimonial"><p>“O FreteFácil facilitou muito o planejamento das minhas rotas — economia real no combustível.”</p><cite>— Maria, Autônoma</cite></blockquote>
+          <blockquote class="testimonial"><p>“Ótima ferramenta para reduzir tempo de viagem e custos com pedágios.”</p><cite>— João, Transportadora</cite></blockquote>
+        </div>
+      </section>
+
+      <!-- Blog -->
+      <section class="section alt">
+        <div class="container">
+          <h3>Blog & Dicas</h3>
+          <p>Posts com dicas sobre economia de combustível, manutenção preventiva e segurança na estrada. (Área futura)</p>
+        </div>
+      </section>
+
+      <!-- Contato -->
+      <section id="contato" class="section container contact-section">
+        <div class="contact-grid">
+          <div>
+            <h3>Fale conosco</h3>
+            <p>Tem dúvida, sugestão ou quer parceria? Envie uma mensagem.</p>
+            <ul class="contact-info">
+              <li>📞 <a href="tel:+551199999999">+55 (11) 99999-9999</a></li>
+              <li>✉️ <a href="mailto:contato@fretefacil.com">contato@fretefacil.com</a></li>
+              <li>💬 WhatsApp: <a href="#">Clique aqui</a></li>
+            </ul>
+          </div>
+
+          <form class="contact-form" action="#" method="post" onsubmit="alert('Formulário de exemplo — integrar backend.'); return false;">
+            <label>Nome <input type="text" name="nome" required></label>
+            <label>E-mail <input type="email" name="email" required></label>
+            <label>Mensagem <textarea name="mensagem" rows="5" required></textarea></label>
+            <button type="submit" class="btn primary">Enviar mensagem</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> FreteFácil — Todos os direitos reservados.</p>
+        <div class="social">
+          <a href="#">Instagram</a>
+          <a href="#">Facebook</a>
+          <a href="#">YouTube</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
